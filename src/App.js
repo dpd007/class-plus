@@ -57,7 +57,7 @@ function App() {
       <div className="container-fluid navbar__container">
         <Navbar nav_links={NAV_LINKS} />
       </div>
-      {/* <div className="container-fluid py-3"><ScreenOne /></div> */}
+      <div className="container-fluid py-3"><ScreenOne /></div>
       <div className="container-fluid py-3">
         <ScreenTwo cardList={CARD_LIST} />
       </div>
