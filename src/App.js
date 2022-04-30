@@ -5,6 +5,7 @@ import ScreenOne from "./components/ScreenOne";
 import ScreenThree from "./components/ScreenThree";
 import ScreenTwo from "./components/ScreenTwo";
 import ScreenFive from "./components/ScreenFive";
+import Feature from "./components/Feature";
 const NAV_LINKS = ["reseller benefits", "teacher's delight", "about us"];
 const CARD_LIST = [
   {
@@ -57,12 +58,17 @@ function App() {
       <div className="container-fluid navbar__container">
         <Navbar nav_links={NAV_LINKS} />
       </div>
-      <div className="container-fluid py-3"><ScreenOne /></div>
       <div className="container-fluid py-3">
+        <ScreenOne />
+      </div>
+      <div className="container-fluid pt-3 card__main__holder">
         <ScreenTwo cardList={CARD_LIST} />
       </div>
-      <div className="container-fluid py-3">
+      <div className="container-fluid pb-3">
         <ScreenThree />
+      </div>
+      <div className="container-fluid py-5">
+        <Feature />
       </div>
       <div className="container-fluid py-2 contact__holder">
         <Contact />

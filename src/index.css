@@ -21,6 +21,9 @@ code {
   position: relative;
   background: #fff;
 }
+.card__main__holder {
+  height: 90vh;
+}
 .contact__holder {
   background: linear-gradient(147.14deg, #73dfe7 6.95%, #0063f7 93.05%);
   border-radius: 0px 10px 10px 0px;
