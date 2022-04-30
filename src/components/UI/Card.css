@@ -2,11 +2,11 @@
   background: #fbfbfb;
   border-radius: 10px;
   width: 18rem;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .img__holder {
-  padding: 10%;
+  padding: 5%;
 }
 .card-body h5 {
   text-transform: capitalize;
