@@ -1,0 +1,21 @@
+.my__card {
+  background: #fbfbfb;
+  border-radius: 10px;
+  width: 18rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img__holder {
+  padding: 10%;
+}
+.card-body h5 {
+  text-transform: capitalize;
+  color: #3c4852;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 24px;
+}

@@ -1,0 +1,25 @@
+.my__btn {
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: linear-gradient(147.14deg, #73dfe7 6.95%, #0063f7 93.05%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+}
+.any__btn {
+  border-radius: 50px;
+  width: fit-content;
+}
+.big_btn {
+  font-size: 1.5rem;
+}
+.contact__btn {
+  border-radius: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 360px) {
+  .my__btn {
+    font-size: 0.95rem;
+  }
+}

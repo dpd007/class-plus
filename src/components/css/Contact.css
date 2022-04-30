@@ -1,0 +1,41 @@
+.contact__inner__holder {
+  padding: 15%;
+  color: #fff;
+}
+.contact__inner__holder h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.contact__inner__holder h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 37px;
+  text-align: left;
+}
+.contact__holder2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__form__holder {
+  height: auto;
+  width: 50%;
+  background: #f5fbfe;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  margin: 5%;
+}
+@media screen and (max-width: 360px) {
+  .contact__inner__holder {
+    padding: 10%;
+  }
+  .contact__inner__holder h5 {
+    font-size: 1.5rem;
+  }
+  .contact__form__holder {
+    width: 95%;
+  }
+}

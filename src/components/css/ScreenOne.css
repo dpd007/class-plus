@@ -1,0 +1,30 @@
+h3 {
+  font-size: 2.5rem;
+}
+.row__text {
+  padding: 20%;
+}
+.row__text h3 {
+  font-weight: 600;
+}
+.row__text h3 span {
+  color: #0063f7;
+}
+.row__text p {
+  font-size: 1.3rem;
+}
+.row__text form {
+  width: 100%;
+}
+.coloured__div {
+  background: linear-gradient(147.14deg, #73dfe7 6.95%, #0063f7 93.05%);
+  border-radius: 60px;
+  transform: rotate(32.94deg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 40%;
+}
+.content__div {
+  position: relative;
+}
